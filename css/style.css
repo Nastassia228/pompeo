@@ -10,7 +10,7 @@
   grid-template-columns: 1fr 1fr auto;
   align-items: baseline;
 
-  padding: 15px 135px;
+  padding: 0 135px 15px 135px;
 }
 
 .logo-link:link,
@@ -113,10 +113,10 @@
 /* HERO */
 /* ****************** */
 
-/* .hero {
+.hero {
   background-image: url("../img/hero-background.jpg");
-  height: 100vh;
+  height: 50vh;
 }
 
 .hero-container {
-} */
+}
