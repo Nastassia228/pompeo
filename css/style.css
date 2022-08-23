@@ -117,16 +117,50 @@
 
 .hero {
   background-image: url("../img/hero-background.jpg");
-  height: 708px;
+  padding: 199px 33px 199px 135px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  padding: 0 135px;
+  position: relative;
 }
 
 .hero-description-container {
 }
 
+.hero-capture {
+  font-family: "Poppins", sans-serif;
+  color: #d77474;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.hero-header {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 14px;
+}
+
+.hero-text {
+  color: #6c6c6c;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 51px;
+}
+
 .hero-img-container {
+  position: absolute;
+  right: 33px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ampersand-sign {
+  font-family: "Playfair Display", serif;
+  font-size: 68px;
+  line-height: 68px;
+  color: #ac1313;
 }

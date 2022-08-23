@@ -12,20 +12,54 @@ html {
   font-family: "Libre Franklin", sans-serif;
 }
 
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
 .header,
 .hero {
   max-width: 1440px;
   margin: 0 auto;
 }
 
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #ac1313;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 20px 38px;
+
+  display: inline-block;
+
+  transition: 0.4s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgba(172, 19, 19, 0.8);
+}
+
 /* Colors 
   #6C6C6C
   #EBEBEB;
   #AC1313
+  #D77474
   
   */
 
 /* Animation 
 0.4s
 
+*/
+
+/* Letter spacing
+2px
+1px
 */
