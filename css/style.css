@@ -118,6 +118,7 @@
 .hero {
   background-image: url("../img/hero-background.jpg");
   padding: 199px 33px 199px 144px;
+  margin-bottom: 120px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -160,7 +161,7 @@
   align-items: center;
   position: relative;
 
-  padding: 120px 144px 151px 144px;
+  padding: 0 144px 151px 144px;
   border-bottom: 1px solid #ebebeb;
 }
 
