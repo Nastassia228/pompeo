@@ -227,19 +227,19 @@
   z-index: -1;
 }
 
-.product-item:nth-child(3)::before {
+.product-item:nth-child(2)::before {
   background-color: #e4560f;
 }
 
-.product-item:nth-child(3)::after {
+.product-item:nth-child(2)::after {
   background-color: #f05b10;
 }
 
-.product-item:nth-child(4)::before {
+.product-item:nth-child(3)::before {
   background-color: #9a0f0f;
 }
 
-.product-item:nth-child(4)::after {
+.product-item:nth-child(3)::after {
   background-color: #a21010;
 }
 
