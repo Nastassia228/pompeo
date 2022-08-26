@@ -435,14 +435,8 @@
 /* ****************** */
 
 .cta {
-  margin-bottom: 120px;
   padding: 120px 144px 120px 144px;
   background-image: url(../img/cta-background.png);
-}
-
-.capture-cta {
-  font-weight: 400;
-  margin-bottom: 7px;
 }
 
 .cta-header {
@@ -467,6 +461,105 @@
 /* ****************** */
 /* SUBSCRIPTION */
 /* ****************** */
+
+.subscription {
+  padding: 120px 0 162px 0;
+  position: relative;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscription-icon {
+  margin-bottom: 40px;
+}
+
+.subscription-header {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-bottom: 63px;
+}
+
+.subscription-form input {
+  width: 320px;
+  height: 45px;
+  padding: 12px 0 12px 50px;
+  margin-bottom: 40px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Lato";
+
+  color: #a1a1a1;
+}
+
+.subscription-form input::placeholder {
+  color: #a1a1a1;
+}
+
+.subscription-btn:link,
+.subscription-btn:visited {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Lato";
+  text-transform: uppercase;
+  padding: 14px 50px 14px 50px;
+
+  transition: 0.4s;
+}
+
+.subscription-btn:hover,
+.subscription-btn:active {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.subscription-sign:link,
+.subscription-sign:visited {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Lato";
+  text-decoration: none;
+  color: #a1a1a1;
+
+  transition: 0.4s;
+}
+
+.subscription-sign:hover,
+.subscription-sign:active {
+  color: #ac1313;
+}
+
+.subscription-sign-container {
+  position: relative;
+  padding: 0 0 0 25px;
+}
+
+.subscription-sign:before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #8534ff;
+  display: block;
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.note-subscription {
+  right: -1%;
+  top: 43%;
+}
 
 /* ****************** */
 /* FOOTER */

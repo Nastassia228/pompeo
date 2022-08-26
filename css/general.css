@@ -14,6 +14,7 @@
 
 /* Animation 
 0.4s
+0.8s
 
 */
 
@@ -42,7 +43,8 @@ h3 {
 .hero,
 .product,
 .store,
-.cta {
+.cta,
+.subscription {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -56,6 +58,11 @@ h3 {
   line-height: 24px;
   font-weight: 700;
   display: inline-block;
+}
+
+.capture-thin {
+  font-weight: 400;
+  margin-bottom: 7px;
 }
 
 .ampersand-sign {
