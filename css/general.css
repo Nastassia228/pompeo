@@ -40,7 +40,8 @@ h3 {
 
 .header,
 .hero,
-.product {
+.product,
+.store {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -73,15 +74,6 @@ h3 {
   text-transform: uppercase;
   position: absolute;
   transform: rotate(-90deg);
-}
-
-.note-left {
-  top: 40%;
-  left: 0;
-}
-
-.note-right {
-  right: 0;
 }
 
 .btn:link,

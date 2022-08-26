@@ -153,6 +153,10 @@
 /* PRODUCT */
 /* ****************** */
 
+.product {
+  margin-bottom: 120px;
+}
+
 /* Shapes part */
 
 .product-container-shapes {
@@ -166,8 +170,6 @@
 }
 
 .product-header-container {
-  grid-column: 1 / -1;
-  justify-self: center;
   text-align: center;
 }
 
@@ -267,6 +269,11 @@
   line-height: 24px;
 }
 
+.note-product-shapes {
+  top: 14%;
+  left: 0;
+}
+
 /* Materials part */
 
 .product-container-materials {
@@ -336,3 +343,101 @@
 .product-description-link:active {
   color: #ac1313;
 }
+
+.note-product-materials {
+  right: 0;
+}
+
+/* ****************** */
+/* STORE */
+/* ****************** */
+
+.store {
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.store-header-container {
+  text-align: center;
+}
+
+.store-header {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 63px;
+}
+
+.store-wrapper {
+  padding: 0 144px 61px 144px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  column-gap: 20px;
+  row-gap: 19px;
+}
+
+.store-card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 15px;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.store-card-img {
+  margin-bottom: 20px;
+
+  overflow: hidden;
+}
+
+.store-card-img img {
+  transition: 0.8s;
+  width: 100%;
+  display: block;
+}
+
+.store-card-img img:hover {
+  transform: scale(1.1);
+}
+
+.store-card-title:link,
+.store-card-title:visited {
+  text-decoration: none;
+  color: #6c6c6c;
+  font-size: 16px;
+  line-height: 26px;
+  width: fit-content;
+
+  transition: 0.4s;
+}
+
+.store-card-title:hover,
+.store-card-title:active {
+  color: #ac1313;
+}
+
+.store-card-price {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.note-store {
+  top: 50%;
+  left: -10px;
+}
+
+/* ****************** */
+/* CTA */
+/* ****************** */
+
+/* ****************** */
+/* SUBSCRIPTION */
+/* ****************** */
+
+/* ****************** */
+/* FOOTER */
+/* ****************** */
