@@ -44,7 +44,8 @@ h3 {
 .product,
 .store,
 .cta,
-.subscription {
+.subscription,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
