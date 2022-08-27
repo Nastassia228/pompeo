@@ -119,13 +119,11 @@
   background-image: url("../img/hero-background.jpg");
   padding: 199px 33px 199px 135px;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
   position: relative;
 }
 
 .hero-description-container {
+  max-width: 50%;
 }
 
 .hero-capture {
