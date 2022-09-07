@@ -163,53 +163,53 @@
           <h2 class="store-header">Pottery Collection</h2>
         </div>
         <div class="store-wrapper">
-          <div class="store-card">
+          <figure class="store-card">
             <div class="store-card-img">
               <img src="img/store1.png" alt="Decor plate picture" />
             </div>
             <a class="store-card-title" href="#">Decor Plate</a>
             <span class="store-card-price">$ 65.00 USD</span>
-          </div>
+          </figure>
 
-          <div class="store-card">
+          <figure class="store-card">
             <div class="store-card-img">
               <img src="img/store2.png" alt="Mint Pottery picture" />
             </div>
             <a class="store-card-title" href="#">Mint Pottery</a>
             <span class="store-card-price">$ 75.00 USD</span>
-          </div>
+          </figure>
 
-          <div class="store-card">
+          <figure class="store-card">
             <div class="store-card-img">
               <img src="img/store3.png" alt="Set Of Potterys picture" />
             </div>
             <a class="store-card-title" href="#">Set Of Potterys</a>
             <span class="store-card-price">$ 125.00 USD</span>
-          </div>
+          </figure>
 
-          <div class="store-card">
+          <figure class="store-card">
             <div class="store-card-img">
               <img src="img/store4.png" alt="Orange Ceramic picture" />
             </div>
             <a class="store-card-title" href="#">Orange Ceramic</a>
             <span class="store-card-price">$ 55.00 USD</span>
-          </div>
+          </figure>
 
-          <div class="store-card">
+          <figure class="store-card">
             <div class="store-card-img">
               <img src="img/store5.png" alt="Dark Bowl picture" />
             </div>
             <a class="store-card-title" href="#">Dark Bowl</a>
             <span class="store-card-price">$ 115.00 USD</span>
-          </div>
+          </figure>
 
-          <div class="store-card">
+          <figure class="store-card">
             <div class="store-card-img">
               <img src="img/store6.png" alt="Square Pottery picture" />
             </div>
             <a class="store-card-title" href="#">Square Pottery</a>
             <span class="store-card-price">$ 75.00 USD</span>
-          </div>
+          </figure>
         </div>
 
         <div class="btn-center">
@@ -218,12 +218,14 @@
 
         <span class="note note-store">Product Collections</span>
       </section>
-      <section class="cta">
+      <section class="call-to-action">
         <span class="capture capture-thin"> Pompeo Pottery</span>
-        <h2 class="cta-header">Ready to start shopping?</h2>
-        <p class="cta-text">
+        <h2 class="call-to-action-header">Ready to start shopping?</h2>
+        <p class="call-to-action-text">
           Lorem ipsum dolor sit amet,
-          <u class="cta-text-highlight"> consectetur adipiscing elit.</u>
+          <u class="call-to-action-text-highlight">
+            consectetur adipiscing elit.</u
+          >
           Suspendisse varius enim in eros elementum.
         </p>
         <a href="#" class="btn">New Collection</a>
@@ -239,11 +241,12 @@
           </h2>
           <form action="#" class="subscription-form">
             <input type="email" placeholder="Enter your email" required />
-            <a href="#" class="subscription-btn">Subscribe</a>
+            <button class="subscription-btn">Subscribe</button>
           </form>
-          <div class="subscription-sign-container">
-            <a href="#" class="subscription-sign">Sign up for our newsletter</a>
-          </div>
+          <form action="#" class="subscription-sign-form">
+            <input type="checkbox" id="sign-up" />
+            <label for="sign-up">Sign up for our newsletter</label>
+          </form>
         </div>
         <span class="note note-subscription">Let's Get In touch</span>
       </section>
@@ -306,7 +309,9 @@
             />
           </svg>
           <p class="footer-contact-title">CALL</p>
-          <span class="footer-contact-text">+1 292 345 678</span>
+          <a href="'tel: +1292345678'" class="footer-contact-tel"
+            >+1 292 345 678</a
+          >
         </li>
       </ul>
     </footer>
