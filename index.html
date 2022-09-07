@@ -4,11 +4,316 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@400;700&family=Pacifico&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="header-container">
+        <a href="" class="logo-link"> <span class="logo">Pompeo</span></a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li><a href="#" class="header-nav-link">Home</a></li>
+            <li><a href="#" class="header-nav-link">About</a></li>
+            <li><a href="#" class="header-nav-link">Shop</a></li>
+            <li><a href="#" class="header-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="cart-container">
+          <a href="#" class="cart-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"
+              />
+            </svg>
+            <span class="cart-caption">Cart</span></a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-description-container">
+          <span class="capture">Pompeo Pottery</span>
+          <h2 class="hero-header">
+            Unique Porcelain <span class="ampersand-sign">&</span> Stone
+            Collection
+          </h2>
+          <p class="hero-text">
+            Unique & modern pottery made by our master in porcelain & stones
+          </p>
+          <a href="#" class="btn">Shop collection</a>
+        </div>
+        <div class="hero-img-container"><img src="img/image.png" alt="" /></div>
+      </section>
+
+      <section class="product">
+        <!-- Shapes -->
+
+        <div class="product-header-container">
+          <span class="capture">Product Categories</span>
+          <h2 class="product-header">
+            Porcelain <span class="ampersand-sign">&</span> Pottery
+          </h2>
+        </div>
+        <div class="product-container-shapes">
+          <div class="product-item">
+            <img src="img/vase.png" alt="Small vase icon" /><span>Vases</span>
+          </div>
+          <div class="product-item">
+            <img src="img/mug.png" alt="Small vase icon" /><span>Mugs</span>
+          </div>
+          <div class="product-item">
+            <img src="img/plate.png" alt="Small vase icon" /><span>Plates</span>
+          </div>
+          <div class="product-information margin-right">
+            <h3 class="product-information-header">
+              Hand Grafted <br />
+              Pottery since 1990
+            </h3>
+            <p class="product-information-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum. Duis cursus, mi quis
+              viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+              vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+              imperdiet. Nunc ut sem vitae risus posuere.
+            </p>
+          </div>
+          <div class="product-information margin-left">
+            <h3 class="product-information-header">
+              We Provide Premium <br />
+              Pottery Produts
+            </h3>
+            <p class="product-information-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum. Duis cursus, mi quis
+              viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+              vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+              imperdiet. Nunc ut sem vitae risus posuere.
+            </p>
+          </div>
+          <span class="note note-product-shapes">Hand Craft Pottery</span>
+        </div>
+
+        <!-- Materials -->
+
+        <div class="product-container-materials">
+          <div class="product-picture-wrapper">
+            <img
+              class="product-picture"
+              src="img/product1.png"
+              alt="Image of pottery vase"
+            />
+          </div>
+          <div class="product-description">
+            <h3 class="product-description-header">Gold & Black Pottery</h3>
+            <p class="product-description-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+              eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim
+              veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex
+              ea commodo consequatuisaute.
+            </p>
+            <a href="#" class="product-description-link">View Details</a>
+          </div>
+
+          <div class="product-description">
+            <h3 class="product-description-header">Orange Ceramic</h3>
+            <p class="product-description-text">
+              Pri cu dico labores officiis, odio principes complectitur ad sea.
+              Sea id doctus forensibus, nec lorem vocent aliquam eu. Aliquid
+              definitiones id cum, ad meliore perpetua referrentur sed. Quas
+              suscipit ad mea verear vivendo tincidunt.
+            </p>
+            <a href="#" class="product-description-link">View Details</a>
+          </div>
+          <div class="product-picture-wrapper">
+            <img
+              class="product-picture"
+              src="img/product2.png"
+              alt="Image of pottery vase"
+            />
+          </div>
+          <span class="note note-product-materials">Featured Products</span>
+        </div>
+      </section>
+
+      <section class="store">
+        <div class="store-header-container">
+          <span class="capture">Our online store</span>
+          <h2 class="store-header">Pottery Collection</h2>
+        </div>
+        <div class="store-wrapper">
+          <figure class="store-card">
+            <div class="store-card-img">
+              <img src="img/store1.png" alt="Decor plate picture" />
+            </div>
+            <a class="store-card-title" href="#">Decor Plate</a>
+            <span class="store-card-price">$ 65.00 USD</span>
+          </figure>
+
+          <figure class="store-card">
+            <div class="store-card-img">
+              <img src="img/store2.png" alt="Mint Pottery picture" />
+            </div>
+            <a class="store-card-title" href="#">Mint Pottery</a>
+            <span class="store-card-price">$ 75.00 USD</span>
+          </figure>
+
+          <figure class="store-card">
+            <div class="store-card-img">
+              <img src="img/store3.png" alt="Set Of Potterys picture" />
+            </div>
+            <a class="store-card-title" href="#">Set Of Potterys</a>
+            <span class="store-card-price">$ 125.00 USD</span>
+          </figure>
+
+          <figure class="store-card">
+            <div class="store-card-img">
+              <img src="img/store4.png" alt="Orange Ceramic picture" />
+            </div>
+            <a class="store-card-title" href="#">Orange Ceramic</a>
+            <span class="store-card-price">$ 55.00 USD</span>
+          </figure>
+
+          <figure class="store-card">
+            <div class="store-card-img">
+              <img src="img/store5.png" alt="Dark Bowl picture" />
+            </div>
+            <a class="store-card-title" href="#">Dark Bowl</a>
+            <span class="store-card-price">$ 115.00 USD</span>
+          </figure>
+
+          <figure class="store-card">
+            <div class="store-card-img">
+              <img src="img/store6.png" alt="Square Pottery picture" />
+            </div>
+            <a class="store-card-title" href="#">Square Pottery</a>
+            <span class="store-card-price">$ 75.00 USD</span>
+          </figure>
+        </div>
+
+        <div class="btn-center">
+          <a href="#" class="btn">View All Products</a>
+        </div>
+
+        <span class="note note-store">Product Collections</span>
+      </section>
+      <section class="call-to-action">
+        <span class="capture capture-thin"> Pompeo Pottery</span>
+        <h2 class="call-to-action-header">Ready to start shopping?</h2>
+        <p class="call-to-action-text">
+          Lorem ipsum dolor sit amet,
+          <u class="call-to-action-text-highlight">
+            consectetur adipiscing elit.</u
+          >
+          Suspendisse varius enim in eros elementum.
+        </p>
+        <a href="#" class="btn">New Collection</a>
+      </section>
+      <section class="subscription">
+        <div class="subscription-container">
+          <div class="subscription-icon">
+            <img src="img/subscription-icon.png" alt="Picture of paper plain" />
+          </div>
+          <span class="capture capture-thin">Latest news</span>
+          <h2 class="subscription-header">
+            Latest news <span class="ampersand-sign">&</span> New updates
+          </h2>
+          <form action="#" class="subscription-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button class="subscription-btn">Subscribe</button>
+          </form>
+          <form action="#" class="subscription-sign-form">
+            <input type="checkbox" id="sign-up" />
+            <label for="sign-up">Sign up for our newsletter</label>
+          </form>
+        </div>
+        <span class="note note-subscription">Let's Get In touch</span>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-info">
+        <a href="" class="logo-link"> <span class="logo">Pompeo</span></a>
+        <p class="footer-text">
+          I have always striven to fix beauty in wood, stone, <br />
+          glass or pottery, that has been my creed.
+        </p>
+      </div>
+      <ul class="footer-contact">
+        <li class="footer-contact-item">
+          <svg
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+          >
+            <path
+              d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"
+            />
+          </svg>
+          <p class="footer-contact-title">EMAIL</p>
+          <span class="footer-contact-text">pompeopotery@gmail.com</span>
+        </li>
+
+        <li class="footer-contact-item">
+          <svg
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+          >
+            <path
+              d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602"
+            />
+          </svg>
+          <p class="footer-contact-title">FIND</p>
+          <span class="footer-contact-text"
+            >Central Park, Manhattan <br />
+            New York, 1101</span
+          >
+        </li>
+
+        <li class="footer-contact-item">
+          <svg
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+          >
+            <path
+              d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376"
+            />
+          </svg>
+          <p class="footer-contact-title">CALL</p>
+          <a href="'tel: +1292345678'" class="footer-contact-tel"
+            >+1 292 345 678</a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
